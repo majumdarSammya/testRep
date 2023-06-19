@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "aerial-passage-363110",
+  "private_key_id": "e637ec87d8f110b6395a24c1f45b218e44364870",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCx5JjlKZGaGm41\nGLiZZt5S6adOvnAwmACZzDTutnhFWk0j+ySz6b7dI7aDl2W8gl9br0wY1/Mfskm7\n8NlQXPXdW2ycSgZrIvDmQzQxtsncjh0RxErGRkOEsd0FHwjhTajYwCJVEIWOfiL3\nIXrqZD5RIwG2u82yqdmPARyqnc9aBCUiufOQg51pnRHQiMlTbChSTnieyw3mCwWJ\nSsUXTlXQJp1XK/WjCwzusGYn8chxgVzUjOuxmJRg3zYw1jP/ZJdGaXvtKb/lp1xw\n0ETgZzmOQ5m37bhs4Wb6xo0CdlC+avyX7N2St0D1zISNJU0HA40j5XgY5ByC7Nv7\n+7CnYu/RAgMBAAECggEASOu0cwe5rCpWb8R880D0NJeb4g71bS353RGUxx+cKI2u\nHmg18NwJxZt8lu+KIB5vGWW/s1VeT2lliTle027vx/fQizZa8DLn/fOhYxmTIKpO\npzhIEIO/7JZ+S7mfib+sTYFg8W6u2KzDB3u9Z3SFCPxpGO9eD/VI/bJOfm/nDfYB\nSl0yyQht5FghdJwaHFjNBOqPlcBiJhOk13RIvACs6NfM7c6evoozJxAYRY4GLNat\nNWRlmWV9lMFHHbXRWZjhLjHB9HwoRDHM3BVaOc5yh8uVYAytMOZJvMtHU9WIVw7J\nnhKE60tPeIJArox5RW1341lQhmo/g938BZIDj6ajkwKBgQD2Bpge7RbVCurZwCiN\nsCSzjwM31IYzfyekfbDsyNDW3KcYvDh4hzpsyWbkGm5JFMRNiAxwbDKOym0v/rOl\n5b93wfSvTxm6KOl6Kzxh39ynnEKna7jS6oRGQUUK8O5EvwW8JjSd8HQUj4NfabtV\ngKmRD11hG+Ans7Lc6zT7cIDRPwKBgQC5GuEQMveyZImUE56+O47pseSG9MeMahn/\nP/kKeIx1Lva3q/rCUr9FV9ofHj1STxu2wbOooybXvp9PBg7M3aHMrHczAetKEFUI\nTLGtWcH8DAvTywlSTMCKfo61s7Kc0/IH/6v0snltDr9V0N/XYibzxvOcMkDJimMJ\nDT2QzSTq7wKBgQCicl41ZWUDDK9fUiM00w6YxSBh1+E41YfOc/PDlSFYDeADVByR\ncPDh7eYTTWRuutiXPPLBtJ95ay3HWA00yEuxfo7axob9RZBMS4oWMiNXRLU6KMWj\n9peab/RvsgARwnO99RgfBSsQfGZJNN4uKcNM9fE5cpeCf4PlnSShtXpJLwKBgQCj\nFqmhaiaPCMGms7qzhSofgNsGhPikIH+TQzwbG6c1QBGkNmSTffCEGilWLYB92rFi\nTjwKouUARTV7nKzBl6yM9o93Y4N5F/azf080mtatSbfJ/SPTXUhvPZ5jPVZrktm2\nbm+FAxK1Ib82zvfJfvMu6eWNg0FN0R38xauuvvB+BQKBgCk1drTMFJv676zvARey\nn9d5ivb4pXbWBDrJypQaP7qPpN2M2Q8H61pwtxVs/RzFb8s2HHnzWkH7Hq8yRECx\nOM9X0s3msc+9X5XW7/LmN6jOsaC7SU0ejWhpcqY0GozJbduvQ+TZ3INuEKUijoks\nDDjYS4HDnOYlBL293Tz78HML\n-----END PRIVATE KEY-----\n",
+  "client_email": "test-bucket-react-service-acco@aerial-passage-363110.iam.gserviceaccount.com",
+  "client_id": "107781338666417313501",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/test-bucket-react-service-acco%40aerial-passage-363110.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
