@@ -1,13 +1,15 @@
 import uvicorn
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, File, UploadFile
-from google.cloud import storage
+from google.cloud import storage, bigquery
 
 app = FastAPI()
 
 storage_client = storage.Client.from_service_account_json('acn-uki-ds-data-ai-project-5ff8dcf544cc.json')
 bucket_name_one = 'document-extractor-input'  
 bucket_name_two = 'document-extractor-success'
+
+bigquery_client = bigquery.Client.from_service_account_json('acn-uki-ds-data-ai-project-c27b43b1fd5d.json')
 
 origins = ["*"]
 
@@ -56,6 +58,31 @@ async def upload_files(file: UploadFile = File(...)):
         print('Error uploading files:', e)
         return {'message': 'Error uploading files'}
 
+@app.get('/data')
+async def get_data():
+    try:
+        query = """
+        SELECT 
+            *   
+        FROM 
+           `acn-uki-ds-data-ai-project.Demo_Dataset.document_ai_output`
+
+        LIMIT 
+            25  
+        """
+
+        job = bigquery_client.query(query)
+        rows = job.result()
+
+        data = []
+        for row in rows:
+            data.append(row)
+
+        print(data[0])
+        return {'data': data}
+
+    except Exception as e:
+        return {"error": str(e)}    
 
     
 
